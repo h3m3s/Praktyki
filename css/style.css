@@ -59,6 +59,10 @@ body {
   font-style: normal;
 }
 
+html {
+  font-size: 10pxsass;
+}
+
 header {
   height: 100vh;
   background: url("../assets/img/bg_header.webp") center/cover fixed;
@@ -68,10 +72,6 @@ header {
   font-size: 10vw;
   color: white;
   text-align: center;
-}
-
-main {
-  min-height: 20vw;
 }
 
 /*# sourceMappingURL=style.css.map */
