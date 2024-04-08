@@ -57,7 +57,8 @@ table {
 }
 
 html {
-  font-size: 10pxsass;
+  font-size: 40px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -73,19 +74,69 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  color: white;
 }
 header h1 {
   z-index: 99;
-  font-size: 4vw;
-  color: white;
+  font-size: 8vw;
   text-align: center;
+}
+@media screen and (min-width: 800px) {
+  header h1 {
+    ont-size: 6vw;
+  }
+}
+@media screen and (min-width: 1240px) {
+  header h1 {
+    font-size: 5vw;
+  }
 }
 header::after {
   content: "";
+  color: inherit;
   background: rgba(1, 13, 0, 0.3882352941);
   position: absolute;
   width: 100%;
   height: 100%;
+}
+header a {
+  margin-top: 10vw;
+  z-index: 99;
+  width: 40vw;
+  height: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5vw;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  border: 3px #48BC03 solid;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+@media screen and (min-width: 800px) {
+  header a {
+    font-size: 2vw;
+    width: 20vw;
+    height: 5vw;
+  }
+}
+@media screen and (min-width: 1240px) {
+  header a {
+    font-size: 1vw;
+    width: 15vw;
+    height: 3vw;
+  }
+}
+header a:hover {
+  transition: 0.5s;
+  background-color: #48BC03;
+}
+
+main {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
