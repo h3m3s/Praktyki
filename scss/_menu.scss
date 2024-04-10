@@ -1,0 +1,30 @@
+@use 'variables.scss' as v;
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    background: v.$color-bg-nav;
+    color: white;
+    z-index: 2;
+    
+}
+.logo{
+    flex-basis: 50%;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.menu{
+    padding-right: 2vw;
+    flex-basis: 50%;
+    text-align: right;
+    span{
+        cursor: pointer;
+        font-size: 1.5vw;
+    }
+}
