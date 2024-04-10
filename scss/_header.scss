@@ -9,11 +9,11 @@ header{
      flex-direction: column;
      color: white;
      h1{
-        z-index: 99     ;
+        z-index: 1;
         font-size: 8vw;
         text-align: center;
         @include m.md{
-         ont-size: 6vw;
+         one-size: 6vw;
       }
       @include m.ld{
          font-size: 5vw;
@@ -29,7 +29,7 @@ header{
      }
      a{
         margin-top: 10vw;
-        z-index: 99;
+        z-index: 1;
         width: 40vw;
         height: 9vw;
         display: flex;

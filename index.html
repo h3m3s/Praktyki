@@ -17,13 +17,30 @@
         <div class="logo">
             <a href="index.html">Pizza Kraków</a>
         </div>
-        <div class="menu">
-            <span class="material-icons">
+        <div onclick="OpenMenu()" class="menu">
+            <span id="menu" class="material-icons">
                 menu
             <span>
         </div>
+        <div id="navbox" class="navbox">
+            <a href="#Start">
+                <span id="Arrow-Upward" class="material-icons">
+                arrow_upward
+                </span>
+                
+            </a>
+            <a href="#Menu">Pizza</a>
+            <a href="#Menu">Makarony</a>
+            <a href="#Menu">Zupy</a>
+            <a href="#Menu">Przystawki</a>
+            <a href="#Menu">Napoje</a>
+            <a href="tel:+852852852">
+                <span class="material-icons">
+                call
+            </span> +48 852 852 852</a>
+        </div>
     </nav>
-    <header>
+    <header id="Start">
         <h1>Najlepsza Pizza W Krakowie</h1>
         <a href="#Menu">Wybierz Pizze</a>
     </header>
