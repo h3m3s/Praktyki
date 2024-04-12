@@ -84,6 +84,9 @@ nav{
         @include m.md{
             font-size: 2vw;
         }
+        @include m.ld{
+            font-size: 1vw;
+        }
     }
 }
 .navbox.active{
@@ -91,6 +94,9 @@ nav{
     left: 65vw;
     @include m.md{
         left: 80vw;
+    }
+    @include m.ld{
+        left:  85vw;
     }
 }
 #Arrow-Upward{

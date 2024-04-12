@@ -1,3 +1,9 @@
-main{
-    height: 100vh;
+section{
+    min-height: 100vh;
+    h2{
+        text-align: center;
+        margin: 30px 0;
+        font-weight: bold;
+        font-size: 3vw;
+    }
 }
