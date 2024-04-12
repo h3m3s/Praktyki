@@ -1,0 +1,28 @@
+@use 'mixins.scss' as *;
+.container{
+    padding: 10px;
+    
+    @include md {
+        width: 760px;
+        margin: 0 auto;
+    }
+    @include ld{
+        width: 1160px;
+    }
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    @include md{
+        flex-direction: row;
+    }
+    
+}
+.col{
+    width: 100%;
+    &-md50 {
+        padding: 20px;
+        flex: 0 0 50%;
+    }
+}

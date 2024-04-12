@@ -1,9 +1,27 @@
+@use 'mixins.scss' as *;
 section{
     min-height: 100vh;
     h2{
         text-align: center;
         margin: 30px 0;
         font-weight: bold;
-        font-size: 3vw;
+        font-size: 10vw;
+        @include ld{
+            font-size: 3vw;
+        }
+    }
+    h3{
+        font-size: 7vw;
+        @include ld{
+            font-size: 2vw;
+        }
+        font-weight: bold;
+    }
+    p{
+        font-size: 5vw;
+        @include ld{
+            font-size: 1vw;
+        }
+        padding: 20px 0;
     }
 }
