@@ -2,14 +2,14 @@
 	box-sizing: border-box;
 }
 html{
-    font-size: 40px;
+	font-size: 40px;
 	scroll-behavior: smooth;
 }
 body{
 	margin: 0;
+	font-style: normal;	
 	font-family: "Nunito", sans-serif;
 	font-optical-sizing: auto;
-	font-style: normal;
 }
 ::-webkit-scrollbar{
 	display: none;

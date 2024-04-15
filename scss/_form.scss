@@ -1,0 +1,32 @@
+@use 'mixins.scss' as *;
+%properties{
+    width: 100%;
+    display: block;
+    margin-bottom: 1vw;
+    font-family: inherit;
+}
+
+label{
+    @extend %properties;
+    font-size: 0.8vw
+    
+}
+input{
+    @extend %properties;
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid black;
+    font-size: 1vw;
+    &:focus{
+        border: 1px solid grey;
+        outline: 0;
+    }
+}
+input[type="submit"]
+{
+    margin-top: 2vw
+}
+textarea{
+    @extend input;
+    resize: none;
+}

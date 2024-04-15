@@ -63,9 +63,9 @@ html {
 
 body {
   margin: 0;
+  font-style: normal;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
 }
 
 ::-webkit-scrollbar {
@@ -363,6 +363,36 @@ section p {
   .col-ld25 {
     flex: 0 0 25%;
   }
+}
+
+input, textarea, label {
+  width: 100%;
+  display: block;
+  margin-bottom: 1vw;
+  font-family: inherit;
+}
+
+label {
+  font-size: 0.8vw;
+}
+
+input, textarea {
+  padding: 6px;
+  border-radius: 16px;
+  border: 1px solid black;
+  font-size: 1vw;
+}
+input:focus, textarea:focus {
+  border: 1px solid grey;
+  outline: 0;
+}
+
+input[type=submit], textarea[type=submit] {
+  margin-top: 2vw;
+}
+
+textarea {
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */

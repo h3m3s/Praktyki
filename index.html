@@ -82,10 +82,19 @@
                         </section>
                         <section id="Contact">
                             <h2>Kontakt</h2>
-                            <a href="tel:+852852852">
-                                <span class="material-icons">
-                                call
-                            </span> +48 852 852 852</a>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                <form autocomplete="off">
+                                    <label for="Email">Podaj Twój Email:</label>
+                                    <input type="email" name="email" id="Email" required>
+                                    <label for="Subject">Tytuł:</label>
+                                    <input name="Subject" id="Subject" required>
+                                    <label for="Message">Wiadomość</label>
+                                    <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Wyślij Wiadomość">
+                                </form>
+                            </div>
                         </section>
                     </main>
                     <footer>Tu będzie stopka strony</footer>

@@ -1,7 +1,6 @@
 'use strict';
 const menuBtn = document.querySelector('span');
 const menuList = document.querySelector('#navbox');
-
 function OpenMenu()
 {
     if(menuBtn.innerHTML == 'menu')
