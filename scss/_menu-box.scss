@@ -1,0 +1,26 @@
+.menu-box{
+    font-size: 25px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s ease-in;
+    text-align: center;
+    &:hover{
+        transition: .3s ease-in;
+        box-shadow: 0 0 30px gray;
+    }
+}
+.picture{
+    height: 160px;
+    background-image: url('../assets/img/bg_header.webp');
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.text{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
