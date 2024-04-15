@@ -76,7 +76,6 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     opacity: 0;
-    
     a{
         font-size: 3vw;
         color: white;
@@ -89,6 +88,7 @@ nav{
         }
     }
 }
+
 .navbox.active{
     opacity: 1;
     left: 65vw;
