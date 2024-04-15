@@ -84,7 +84,6 @@ nav {
   width: 100vw;
   height: 10vw;
 }
-
 @media screen and (min-width: 800px) {
   nav {
     height: 8vw;
@@ -95,41 +94,42 @@ nav {
     height: 3vw;
   }
 }
+
 .logo {
   flex-basis: 50%;
 }
-
 .logo a {
   font-size: 4vw;
   color: white;
   text-decoration: none;
 }
-
 @media screen and (min-width: 1240px) {
   .logo a {
     font-size: 1vw;
   }
 }
+
 .menu {
   padding-right: 2vw;
   flex-basis: 50%;
   text-align: right;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -khtml-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
-
 .menu span {
   cursor: pointer;
   font-size: 6vw;
 }
-
 @media screen and (min-width: 1240px) {
   .menu span {
     font-size: 2vw;
   }
 }
+
 .navbox {
   position: absolute;
   top: 10vw;
@@ -147,7 +147,6 @@ nav {
   justify-content: space-evenly;
   opacity: 0;
 }
-
 @media screen and (min-width: 800px) {
   .navbox {
     top: 8vw;
@@ -169,7 +168,6 @@ nav {
   color: white;
   text-decoration: none;
 }
-
 @media screen and (min-width: 800px) {
   .navbox a {
     font-size: 2vw;
@@ -180,11 +178,11 @@ nav {
     font-size: 1vw;
   }
 }
+
 .navbox.active {
   opacity: 1;
   left: 65vw;
 }
-
 @media screen and (min-width: 800px) {
   .navbox.active {
     left: 80vw;
@@ -195,15 +193,16 @@ nav {
     left: 85vw;
   }
 }
+
 #Arrow-Upward {
   font-size: 7vw;
 }
-
 @media screen and (min-width: 800px) {
   #Arrow-Upward {
     font-size: 3vw;
   }
 }
+
 header {
   height: 100vh;
   background: url("../assets/img/bg_header.webp") center/cover fixed;
@@ -213,13 +212,11 @@ header {
   flex-direction: column;
   color: white;
 }
-
 header h1 {
   z-index: 1;
   font-size: 8vw;
   text-align: center;
 }
-
 @media screen and (min-width: 800px) {
   header h1 {
     one-size: 6vw;
@@ -238,7 +235,6 @@ header::after {
   width: 100vw;
   height: 100vh;
 }
-
 header a {
   margin-top: 10vw;
   z-index: 1;
@@ -255,7 +251,6 @@ header a {
   border-radius: 16px;
   transition: 0.5s;
 }
-
 @media screen and (min-width: 800px) {
   header a {
     font-size: 2vw;
@@ -278,43 +273,39 @@ header a:hover {
 section {
   min-height: 100vh;
 }
-
 section h2 {
   text-align: center;
   margin: 30px 0;
   font-weight: bold;
   font-size: 10vw;
 }
-
 @media screen and (min-width: 1240px) {
   section h2 {
     font-size: 3vw;
   }
 }
 section h3 {
-  font-size: 7vw;
+  font-size: 3vw;
   font-weight: bold;
 }
-
 @media screen and (min-width: 1240px) {
   section h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 section p {
-  font-size: 5vw;
+  font-size: 1.5vw;
   padding: 20px 0;
 }
-
 @media screen and (min-width: 1240px) {
   section p {
-    font-size: 1vw;
+    font-size: 0.7vw;
   }
 }
+
 .container {
   padding: 10px;
 }
-
 @media screen and (min-width: 800px) {
   .container {
     width: 760px;
@@ -326,24 +317,51 @@ section p {
     width: 1160px;
   }
 }
+
 .row {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 @media screen and (min-width: 800px) {
   .row {
     flex-direction: row;
   }
 }
+
 .col {
   width: 100%;
-}
-
-.col-md50 {
   padding: 20px;
-  flex: 0 0 50%;
-} 
+}
+@media screen and (min-width: 800px) {
+  .col-md50 {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .col-md33 {
+    flex: 0 0 33.3%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .col-md25 {
+    flex: 0 0 25%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col-ld50 {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col-ld33 {
+    flex: 0 0 33.3%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .col-ld25 {
+    flex: 0 0 25%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
