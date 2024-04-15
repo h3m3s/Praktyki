@@ -286,7 +286,7 @@ section h2 {
   }
 }
 section h3 {
-  font-size: 3vw;
+  font-size: 6vw;
   font-weight: bold;
 }
 @media screen and (min-width: 1240px) {
@@ -295,7 +295,7 @@ section h3 {
   }
 }
 section p {
-  font-size: 1.5vw;
+  font-size: 4vw;
   padding: 20px 0;
 }
 @media screen and (min-width: 1240px) {
@@ -372,6 +372,13 @@ input, textarea, label {
   font-family: inherit;
 }
 
+section {
+  min-height: 100vh;
+}
+section:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+
 label {
   font-size: 0.8vw;
 }
@@ -393,6 +400,11 @@ input[type=submit], textarea[type=submit] {
 
 textarea {
   resize: none;
+}
+
+footer {
+  background-color: #0d0d0d;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,10 +6,17 @@
     font-family: inherit;
 }
 
+section{
+    min-height: 100vh;
+    &:nth-of-type(even)
+    {
+        background-color: whitesmoke;
+    }
+}
+
 label{
     @extend %properties;
     font-size: 0.8vw
-    
 }
 input{
     @extend %properties;

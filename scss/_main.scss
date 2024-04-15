@@ -12,14 +12,14 @@ section{
         }
     }
     h3{
-        font-size: 3vw;
+        font-size: 6vw;
         @include ld{
             font-size: 1.5vw;
         }
         font-weight: bold;
     }
     p{
-        font-size: 1.5vw;
+        font-size:4vw;
         @include ld{
             font-size: .7vw;
         }
