@@ -1,0 +1,9 @@
+@use 'mixins.scss' as *;
+.googleMap{
+    width: 100%;
+    height: 100vw;
+    @include ld{
+        height: 30vw;
+    }
+    
+}

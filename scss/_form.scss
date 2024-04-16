@@ -16,17 +16,23 @@ section{
 
 label{
     @extend %properties;
-    font-size: 0.8vw
+    font-size: 4vw;
+    @include ld{
+       font-size: 0.8vw;
+    }
 }
 input{
     @extend %properties;
     padding: 6px;
     border-radius: 16px;
     border: 1px solid black;
-    font-size: 1vw;
+    font-size: 3vw;
     &:focus{
         border: 1px solid grey;
         outline: 0;
+    }
+    @include ld{
+        font-size: 1vw;
     }
 }
 input[type="submit"]

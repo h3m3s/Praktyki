@@ -17,6 +17,15 @@
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
+// .picture1{
+//     background: url('../assets/img/pizza-oliwka.webp') center/cover;
+// }
+@for $i from 1 to 5
+{
+    .picture#{$i}{
+        background: url('../assets/img/pizza#{$i}.webp') center/cover;
+    }
+}
 .text{
     height: 40px;
     display: flex;
