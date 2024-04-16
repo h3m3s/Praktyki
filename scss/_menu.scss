@@ -52,17 +52,15 @@ nav{
     position: absolute;
     top: 10vw;
     left: 100vw;
-    width: 35vw;
+    width: 50vw;
     height: 90vw;
     @include m.md{
         top: 8vw;
-        left: 100vw;
         width: 20vw;
         height:50vw;
     }
     @include m.ld{
         top: 3vw;
-        left: 100vw;
         width: 15vw;
         height: 30vw;
     }
@@ -77,7 +75,7 @@ nav{
     justify-content: space-evenly;
     opacity: 0;
     a{
-        font-size: 3vw;
+        font-size: 5vw;
         color: white;
         text-decoration: none;
         @include m.md{
@@ -91,7 +89,7 @@ nav{
 
 .navbox.active{
     opacity: 1;
-    left: 65vw;
+    left: 55vw;
     @include m.md{
         left: 80vw;
     }
@@ -100,7 +98,7 @@ nav{
     }
 }
 #Arrow-Upward{
-    font-size: 7vw;
+    font-size: 9vw;
     @include m.md{
         font-size: 3vw;
     }

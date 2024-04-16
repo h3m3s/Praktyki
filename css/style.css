@@ -134,7 +134,7 @@ nav {
   position: absolute;
   top: 10vw;
   left: 100vw;
-  width: 35vw;
+  width: 50vw;
   height: 90vw;
   padding-top: 1vw;
   background-color: #400101;
@@ -150,7 +150,6 @@ nav {
 @media screen and (min-width: 800px) {
   .navbox {
     top: 8vw;
-    left: 100vw;
     width: 20vw;
     height: 50vw;
   }
@@ -158,13 +157,12 @@ nav {
 @media screen and (min-width: 1240px) {
   .navbox {
     top: 3vw;
-    left: 100vw;
     width: 15vw;
     height: 30vw;
   }
 }
 .navbox a {
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   text-decoration: none;
 }
@@ -181,7 +179,7 @@ nav {
 
 .navbox.active {
   opacity: 1;
-  left: 65vw;
+  left: 55vw;
 }
 @media screen and (min-width: 800px) {
   .navbox.active {
@@ -195,7 +193,7 @@ nav {
 }
 
 #Arrow-Upward {
-  font-size: 7vw;
+  font-size: 9vw;
 }
 @media screen and (min-width: 800px) {
   #Arrow-Upward {
@@ -468,6 +466,13 @@ textarea {
 footer {
   background-color: #0d0d0d;
   color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+@media screen and (min-width: 1240px) {
+  footer {
+    font-size: 1vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

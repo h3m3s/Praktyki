@@ -1,6 +1,11 @@
 @use 'variables.scss' as *;
-
+@use 'mixins.scss' as v;
 footer{
     background-color: $color-bg-footer;
     color: white;
+    font-size: 3vw;
+    text-align: center;
+    @include v.ld{
+        font-size: 1vw;
+    }
 }
