@@ -466,7 +466,7 @@ textarea {
 footer {
   background-color: #0d0d0d;
   color: white;
-  font-size: 6vw;
+  font-size: 1vw;
   text-align: center;
 }
 @media screen and (min-width: 1240px) {
